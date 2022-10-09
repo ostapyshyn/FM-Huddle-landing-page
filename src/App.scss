@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  /* max-width: 500px; */
+  margin: auto;
+
+  .logo {
+    margin-right: auto;
+    display: block;
+  }
+}
