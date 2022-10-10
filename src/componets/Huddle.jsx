@@ -21,19 +21,18 @@ const Huddle = () => {
               audience. Create connections with your users as you engage in genuine discussion.{' '}
             </p>
             <button>Register</button>
-
-            <div className={styles.icons}>
-              <div className={styles.social_icons}>
-                <FaFacebookF className={styles.social} />
-              </div>
-              <div className={styles.social_icons}>
-                <FaTwitter className={styles.social} />
-              </div>
-              <div className={styles.social_icons}>
-                <FaInstagram className={styles.social} />
-              </div>
-            </div>
           </article>
+        </div>
+        <div className={styles.icons}>
+          <div className={styles.social_icons}>
+            <FaFacebookF className={styles.social} />
+          </div>
+          <div className={styles.social_icons}>
+            <FaTwitter className={styles.social} />
+          </div>
+          <div className={styles.social_icons}>
+            <FaInstagram className={styles.social} />
+          </div>
         </div>
       </main>
     </>

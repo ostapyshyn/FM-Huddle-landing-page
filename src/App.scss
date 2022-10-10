@@ -1,3 +1,5 @@
+@import './index.scss';
+
 .App {
   display: flex;
   flex-direction: column;
@@ -7,6 +9,8 @@
   width: 100%;
   /* max-width: 500px; */
   margin: auto;
+
+  
 
   .logo {
     margin-right: auto;
