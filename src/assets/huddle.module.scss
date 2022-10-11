@@ -19,6 +19,7 @@ main {
     @include mq(900px) {
       flex-direction: column;
       margin-bottom: 64px;
+      align-items: center;
     }
   }
 
@@ -26,8 +27,8 @@ main {
     margin-top: 54px;
     margin-bottom: 84px;
     @include mq(900px) {
-      margin-top: 40px;
-      margin-bottom: 70px;
+      margin-top: 35px;
+      margin-bottom: 60px;
       width: 120px;
     }
   }
@@ -60,7 +61,7 @@ main {
     }
 
     &:hover {
-      border: 2px solid var(--soft-magenta);
+      border-color: var(--soft-magenta);
       .social {
         color: var(--soft-magenta);
       }
